@@ -63,6 +63,7 @@ while($user = $requete->fetch()){
        <div class="cadre">
             <div class="img-container">
                 <a href="./projet/index.html" target="_blank">
+                
                     <img src="./projet/images/acropro.png" alt="projet-1">
                 </a>
             </div>

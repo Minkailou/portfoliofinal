@@ -50,7 +50,7 @@ if(isset($_POST['valider'])){
                 <td><input type="submit" name="valider"></td>
              </tr>
              </table>
-             <p><marquee>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus tellus, tincidunt id felis a, lacinia sodales dolor. Pellentesque dignissim vitae lacus vitae placerat. Vestibulum tristique justo at feugiat tristique. Vivamus suscipit viverra sagittis. Nunc nec luctus orci. Fusce sit</marquee></p>
+             <!-- <p><marquee>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus tellus, tincidunt id felis a, lacinia sodales dolor. Pellentesque dignissim vitae lacus vitae placerat. Vestibulum tristique justo at feugiat tristique. Vivamus suscipit viverra sagittis. Nunc nec luctus orci. Fusce sit</marquee></p> -->
      </fieldset>
           </div>
      

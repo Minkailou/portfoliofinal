@@ -13,7 +13,7 @@
                data-aos-delay="50"
                data-aos-duration="1000"
                data-aos-once="false"
-               data-aos-anchor-placement="top-center">Dév fron-end</h2>
+               data-aos-anchor-placement="top-center">Dév front-end</h2>
    
                <div class="container">
                  <div class="row presentation">
@@ -30,7 +30,7 @@
                  </div>
                </div>
                 <div class="button">
-                   <a href="file:///C:/wamp/www/PortfolioFinal/projet/images/cv.pdf" target="_blank">CV en PDF</a>
+                   <a href="./projet/images/cv.pdf" target="_blank">CV en PDF</a>
                </div>
              </div>
        </header>
@@ -44,6 +44,7 @@
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
                         <img src="./media/sportif.png" alt="runner">
+                    
                     </div>
                     <div class="flip-box-back">
                      <div>
