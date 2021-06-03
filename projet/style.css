@@ -1,0 +1,253 @@
+
+
+.bloc-page { 
+    display: flex;
+    flex-flow: row wrap;
+} 
+.bloc-page > * {
+     flex: 100%; 
+}
+@media (max-width: 800px) {
+    .bloc-page {
+        width: auto;
+    }
+}
+.header {
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.034);
+    border-bottom: 2px solid skyblue ;
+
+}
+
+.logo {
+   margin-left: 150px;
+}
+.navigation {
+    padding: 0;
+    margin: 0; 
+    list-style-type: none;
+
+   
+}  
+.navigation li {
+    font-size: 1.3em;
+} 
+.navigation a {
+    display: block;
+    text-decoration: none;
+    font-family: Revalia;
+    padding: 1.5em;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px  burlywood;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.defile {
+    font-size: 4em;
+    font-family: Revalia;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.568);
+}
+@media (max-width: 800px) {
+    .globale {
+        flex-direction: column;
+        margin-left: 70px;
+    }
+    .navigation { 
+        flex-direction: column; 
+        margin-top: 200px;
+   }
+   
+    .logo {
+        float: left;
+        width: 100px;
+        margin-left: 0px;
+    }
+    .defile {
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    .avant-gout {
+        font-size: 13px;
+
+    }
+    .header {
+        width: 100%;
+        background-color: white;
+    }
+    .carte {
+        width: 300px;
+        height: 300px;
+        margin-left: 15px;
+    }
+    
+     
+}
+
+.globale {
+    display: flex;
+    justify-content: space-between;
+}
+.paragraphe1 {
+    width: 300px;
+    height: 500px;
+    background-color: rgba(0, 0, 255, 0.034);
+    box-shadow: 4px 4px 4px black;
+    border-radius: 40% 40% 0 0;
+}
+.paragraphe2 {
+    width: 300px;
+    height: 500px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 255, 0.034);
+    box-shadow: 4px 4px 4px black;
+    border-radius: 40% 40% 0 0;
+}
+.paragraphe3 {
+    width: 300px;
+    height: 500px;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 255, 0.034);
+    box-shadow: 4px 4px 4px black;
+    border-radius: 40% 40% 0 0;
+}
+.paragraphe4 {
+    width: 300px;
+    height: 500px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 255, 0.034);
+    box-shadow: 4px 4px 4px black;
+    border-radius: 40% 40% 0 0;
+}
+.paragraphe5 {
+    width: 300px;
+    height: 500px;
+    background-color: rgba(0, 0, 255, 0.034);
+    box-shadow: 4px 4px 4px black;
+    border-radius: 40% 40% 0 0;
+}
+
+.oval {
+    border-radius: 30% 30% 0 0;
+    box-shadow: 4px 4px 4px black;
+}
+.oval-titre {
+    font-family: Revalia;
+    font-size: 1em;
+    text-align:center
+}
+.oval-content {
+    font-family: Ravalia;
+}
+.grid {
+    list-style: none;
+    padding: .5em;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+}
+.grid-item {
+    margin: .5em;
+    box-shadow: 4px 4px 4px black;
+}
+.grid-item:first-of-type {
+    grid-area: 1 / 1 / span 2 / span 2;
+}
+.grid-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* 
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+} */
+/* .grid-item :hover { */
+    /* opacity: 1; */
+    /* filter: blur(2px); */
+/* } */
+@media (min-width: 400px) {
+    .grid {grid-template-columns: 1fr 1fr;
+
+     }
+}
+@media (min-width: 600px) {
+    .grid {grid-template-columns: 1fr 1fr 1fr;
+     }
+}
+@media (min-width: 800px) {
+    .grid {grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+}
+@media (min-width: 1000px) {
+    .grid {grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     }
+}
+@media (min-width: 1200px) {
+    .grid {grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     }
+}
+@media (min-width: 1400px) {
+    .grid {grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     }
+}
+
+   h3 {
+       margin: 25px;
+       text-align: center;
+       font-family: Revalia;
+   }
+  
+   h1 {
+    font-family: Revalia;
+}  
+
+a:hover {
+    color:burlywood;
+    text-shadow: 1px 1px 1px black;
+}
+.footer {
+    /* display: flex; */
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.034);
+    border-bottom: 2px solid skyblue ;
+    border-top: 2px solid skyblue ;
+}
+
+.list-container3 {
+    display: flex;
+    padding: 1em;
+    flex-flow: row wrap;
+    
+}
+.reseau{
+    margin-right: 20px;
+    border-radius: 50%;
+
+}
+.copy {
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    
+}
+.copy:hover {
+    color:burlywood;
+    text-shadow: 1px 1px 1px black;
+}
+
+ 
+

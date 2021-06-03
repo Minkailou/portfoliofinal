@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:wght@100&family=Rambla&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+.article{ 
+    width: 800px;
+    height: auto;
+    margin-bottom: 10px;
+    background: rgba(214, 52, 52, 0.52);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Josefin Sans', Sans-serif;    
+}
+
+.bloc_art{
+    width: 700px;
+    height: 400px;
+    margin: 20px;
+    
+}
+.article h1{
+    text-align: center;
+    color: white;
+    font-family: 'Audiowide', Sans-serif;
+    text-shadow: 2px 2px 0px #e71212, 4px 4px 0px #111, 4px 4px 6px #e9e7e3;
+}
+h1, p{
+    text-align: center;
+    font-family: monospace;
+    margin: 5px 0 5px 0;
+}
+a{
+    text-decoration: none;
+}
+button{
+    display: inline;
+    list-style-type: none;
+    padding: 1em;
+    margin-left: 5px;
+    font-weight: bold;
+    background: rgba( 155, 155, 155, 1.50 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 4px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+}
+button:hover{
+    background-color: cadetblue;
+}
+.forma{
+    width: 400px;
+    height: 400px;
+    font-family: 'Audiowide', Sans-serif;
+
+
+}
+.forma2{
+    width: 700px;
+    height: 580px;
+    background: url('./projet/images/cover12.jpg')no-repeat;
+}
+.for_global{
+    width: 200px;
+    height: 200px;
+}
+legend{
+    color: tomato;
+}
+td{
+    color: black;
+}
+fieldset p{
+    font-family: monospace;
+    color: firebrick
+}
